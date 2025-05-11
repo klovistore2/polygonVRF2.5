@@ -19,11 +19,13 @@ THis is configured to run on POLYGON MAINNET with HardHat:
 
 - run : npx hardhat run scripts/test.ts --network poly
 
-you can dynamically test :    
-        const newKeyHash = "0x0ffbbd0c1c18c0263dd778dadd1d64240d7bc338d95fec1cf0473928ca7eaf9e"; // Polygon 200 GWEI CHANGE IT HERE SEE THE DOC 
+you can dynamically test differente values for :
+
+        const newKeyHash = "0x0ffbbd0c1c18c0263dd778dadd1d64240d7bc338d95fec1cf0473928ca7eaf9e";
         const newGasLimit = 400000; 
 
-    So you don't have to redeploy and add consumer each time
+Directlyin test.ts
+So you don't have to redeploy and add consumer each time
 
 VRF adress vrfCoordinator is HARD CODED in contracts/GrokDynamic.sol for polygon MAINNET
 
