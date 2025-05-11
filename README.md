@@ -3,11 +3,11 @@
 
 THis is configured to run on POLYGON MAINNET with HardHat: 
 
-- Create a subscriptionhere : https://vrf.chain.link/polygon
+- Create a chainlink VRF subscription here : https://vrf.chain.link/polygon 
 
-- add SUBSCRIPTION_ID in scripts/deploy.ts (to deploying the contract)
+- add SUBSCRIPTION_ID in : scripts/deploy.ts (to deploying the contract)
 
-- Add your PRIVATE_KEY and <YOUR_INFURA_PROJECT_ID> in : hardhat.config.ts
+- Add your PRIVATE_KEY (from the adress used to creat the subscription on https://vrf.chain.link) and <YOUR_INFURA_PROJECT_ID> in : hardhat.config.ts
 
 - run : npx hardhat run scripts/deploy.ts --network poly
 
