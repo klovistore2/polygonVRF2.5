@@ -15,7 +15,7 @@ async function main() {
     console.log(`Connecté au contrat Grok à l'adresse: ${await grok.getAddress()}`);
 
     // (OPTIONNEL) Changer dynamiquement les paramètres
-    const updateParams = false;
+    const updateParams = true;
     if (updateParams) {
        
         ///////// TO TEST THE CONTRACT ON POLYGON MAINNET //////////
