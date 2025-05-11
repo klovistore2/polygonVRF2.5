@@ -3,6 +3,8 @@
 
 THis is configured to run on POLYGON MAINNET with HardHat: 
 
+- npm install
+
 - Create a chainlink VRF subscription here : https://vrf.chain.link/polygon 
 
 - add SUBSCRIPTION_ID in : scripts/deploy.ts (to deploying the contract)
