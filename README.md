@@ -3,6 +3,8 @@
 
 THis is configured to run on POLYGON MAINNET with HardHat: 
 
+- git clone https://github.com/klovistore2/polygonVRF2.5
+
 - npm install
 
 - Create a chainlink VRF subscription here : https://vrf.chain.link/polygon 
