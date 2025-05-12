@@ -11,7 +11,7 @@ This is configured to run on POLYGON MAINNET with HardHat:
 
 - add SUBSCRIPTION_ID in : scripts/deployGrok.ts (to deploying the contract)
 
-- Add your PRIVATE_KEY (from the adress used to creat the subscription on https://vrf.chain.link) and <YOUR_INFURA_PROJECT_ID> in : hardhat.config.ts
+- Add your PRIVATE_KEY (from the adress used to create the subscription on https://vrf.chain.link) and <YOUR_INFURA_PROJECT_ID> in : hardhat.config.ts
 
 - run : npx hardhat run scripts/deployGrok.ts --network poly
 
