@@ -23,8 +23,6 @@ This is configured to run on POLYGON MAINNET with HardHat:
 
 - run : npx hardhat run scripts/test.ts --network poly
 
-Directly in testGrok.ts
-So you don't have to redeploy and add consumer each time
 
 VRF adress vrfCoordinator is HARD CODED in contracts/Grok.sol for polygon MAINNET
 
