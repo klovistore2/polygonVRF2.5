@@ -28,3 +28,5 @@ So you don't have to redeploy and add consumer each time
 
 VRF adress vrfCoordinator is HARD CODED in contracts/Grok.sol for polygon MAINNET
 
+Generate a random number, earn 100USDC on polygon
+
