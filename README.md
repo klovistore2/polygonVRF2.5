@@ -17,7 +17,7 @@ This is configured to run on POLYGON MAINNET with HardHat:
 
 - add the deployment adress of the contract as a consumer : https://vrf.chain.link/polygon
 
-- fund the VRF subscription with Link 
+- fund the VRF subscription with Link (TOKEN) use their tool to 'PegSwap'
 
 - add the deployment adress of the contract in : scripts/testGrok.ts
 
