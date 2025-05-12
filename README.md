@@ -9,7 +9,7 @@ This is configured to run on POLYGON MAINNET with HardHat:
 
 - Create a chainlink VRF subscription here : https://vrf.chain.link/polygon 
 
-- add SUBSCRIPTION_ID in : scripts/deployGrok.ts (to deploying the contract)
+- add SUBSCRIPTION_ID in : scripts/deployGrok.ts (to deploy the contract)
 
 - Add your PRIVATE_KEY (from the adress used to create the subscription on https://vrf.chain.link) and <YOUR_INFURA_PROJECT_ID> in : hardhat.config.ts
 
